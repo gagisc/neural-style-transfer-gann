@@ -1,0 +1,28 @@
+# Pretrained model weights (too large for Git)
+models/*.caffemodel
+models/*.t7
+models/*.pkl
+
+# Generated output images
+*.png
+*.jpg
+*.jpeg
+!examples/inputs/*.jpg
+!examples/inputs/*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Torch/Lua bytecode
+*.lua.luac
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
