@@ -3,12 +3,10 @@ models/*.caffemodel
 models/*.t7
 models/*.pkl
 
-# Generated output images
+# Images (inputs, outputs, and report figures)
 *.png
 *.jpg
 *.jpeg
-!examples/inputs/*.jpg
-!examples/inputs/*.png
 
 # Python cache
 __pycache__/
